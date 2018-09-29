@@ -1,0 +1,7 @@
+{
+  "name": "AppCarte",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
