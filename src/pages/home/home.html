@@ -1,14 +1,39 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+     CarteApp
     </ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> -->
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="container">
+   <form >
+    <h1>Connectez vous</h1>
+      <ion-item>
+        <ion-label floating>Email</ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+      
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input   type="password"></ion-input>
+      </ion-item>      
+    
+      <ion-row>
+        <ion-col text-center>
+          <button ion-button block color="secondary" (click)="onSignIn()">
+            Sign in
+          </button>
+        </ion-col>
+      </ion-row>
+    
+      <ion-row>
+        <ion-col text-center>
+          <button ion-button clear color="light" >
+            <span class="forgot">Forgot your password? </span>
+          </button>
+        </ion-col>
+      </ion-row>
+    
+    </form>
 </ion-content>
